@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF45FCD139F443900508556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF45FCC139F443900508556 /* Foundation.framework */; };
+		FAF45FD0139F443900508556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF45FCF139F443900508556 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAF45FC6139F443900508556 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAF45FC8139F443900508556 /* SendBox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SendBox; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF45FCC139F443900508556 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAF45FCF139F443900508556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF45FD2139F443900508556 /* SendBox-Prefix.pch */ = {isa = PBXFileReference; path = "SendBox-Prefix.pch"; sourceTree = "<group>"; };
+		FAF45FD3139F443900508556 /* SendBox.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SendBox.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF45FC5139F443900508556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF45FCD139F443900508556 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF45FBD139F443900508556 = {
+			isa = PBXGroup;
+			children = (
+				FAF45FCE139F443900508556 /* SendBox */,
+				FAF45FCB139F443900508556 /* Frameworks */,
+				FAF45FC9139F443900508556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF45FC9139F443900508556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF45FC8139F443900508556 /* SendBox */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF45FCB139F443900508556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF45FCC139F443900508556 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF45FCE139F443900508556 /* SendBox */ = {
+			isa = PBXGroup;
+			children = (
+				FAF45FCF139F443900508556 /* main.m */,
+				FAF45FD3139F443900508556 /* SendBox.1 */,
+				FAF45FD1139F443900508556 /* Supporting Files */,
+			);
+			path = SendBox;
+			sourceTree = "<group>";
+		};
+		FAF45FD1139F443900508556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF45FD2139F443900508556 /* SendBox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF45FC7139F443900508556 /* SendBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF45FD6139F443900508556 /* Build configuration list for PBXNativeTarget "SendBox" */;
+			buildPhases = (
+				FAF45FC4139F443900508556 /* Sources */,
+				FAF45FC5139F443900508556 /* Frameworks */,
+				FAF45FC6139F443900508556 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendBox;
+			productName = SendBox;
+			productReference = FAF45FC8139F443900508556 /* SendBox */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF45FBF139F443900508556 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FAF45FC2139F443900508556 /* Build configuration list for PBXProject "SendBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAF45FBD139F443900508556;
+			productRefGroup = FAF45FC9139F443900508556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF45FC7139F443900508556 /* SendBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF45FC4139F443900508556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF45FD0139F443900508556 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAF45FD4139F443900508556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAF45FD5139F443900508556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAF45FD7139F443900508556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendBox/SendBox-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF45FD8139F443900508556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendBox/SendBox-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF45FC2139F443900508556 /* Build configuration list for PBXProject "SendBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF45FD4139F443900508556 /* Debug */,
+				FAF45FD5139F443900508556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF45FD6139F443900508556 /* Build configuration list for PBXNativeTarget "SendBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF45FD7139F443900508556 /* Debug */,
+				FAF45FD8139F443900508556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF45FBF139F443900508556 /* Project object */;
+}
