@@ -7,15 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Bar.h"
 
 int main (int argc, const char * argv[])
 {
 
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
-    // insert code here...
-    NSLog(@"Hello, World!");
-
+    Bar* bar=[Bar new];
+    
+    [bar WriteAll];
+    
     [pool drain];
     return 0;
 }

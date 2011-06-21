@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAAC679C13B0767D00F8E3A9 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC679B13B0767D00F8E3A9 /* Bar.m */; };
 		FAF45FCD139F443900508556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF45FCC139F443900508556 /* Foundation.framework */; };
 		FAF45FD0139F443900508556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF45FCF139F443900508556 /* main.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FAAC679A13B0767D00F8E3A9 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
+		FAAC679B13B0767D00F8E3A9 /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
+		FAAC679D13B077C100F8E3A9 /* SendBox-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SendBox-Prefix.pch"; sourceTree = "<group>"; };
 		FAF45FC8139F443900508556 /* SendBox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SendBox; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF45FCC139F443900508556 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAF45FCF139F443900508556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -70,8 +74,11 @@
 		FAF45FCE139F443900508556 /* SendBox */ = {
 			isa = PBXGroup;
 			children = (
+				FAAC679D13B077C100F8E3A9 /* SendBox-Prefix.pch */,
 				FAF45FCF139F443900508556 /* main.m */,
 				FAF45FD3139F443900508556 /* SendBox.1 */,
+				FAAC679A13B0767D00F8E3A9 /* Bar.h */,
+				FAAC679B13B0767D00F8E3A9 /* Bar.m */,
 			);
 			path = SendBox;
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF45FD0139F443900508556 /* main.m in Sources */,
+				FAAC679C13B0767D00F8E3A9 /* Bar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
