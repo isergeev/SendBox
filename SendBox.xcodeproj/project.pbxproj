@@ -27,7 +27,6 @@
 		FAF45FC8139F443900508556 /* SendBox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SendBox; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF45FCC139F443900508556 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAF45FCF139F443900508556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FAF45FD2139F443900508556 /* SendBox-Prefix.pch */ = {isa = PBXFileReference; path = "SendBox-Prefix.pch"; sourceTree = "<group>"; };
 		FAF45FD3139F443900508556 /* SendBox.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SendBox.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,17 +72,8 @@
 			children = (
 				FAF45FCF139F443900508556 /* main.m */,
 				FAF45FD3139F443900508556 /* SendBox.1 */,
-				FAF45FD1139F443900508556 /* Supporting Files */,
 			);
 			path = SendBox;
-			sourceTree = "<group>";
-		};
-		FAF45FD1139F443900508556 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FAF45FD2139F443900508556 /* SendBox-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +207,7 @@
 				FAF45FD8139F443900508556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
