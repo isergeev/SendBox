@@ -12,5 +12,9 @@
 @interface Foo : Bar {
     
 }
+@end
 
+
+@interface Foo (Category) 
+-(void)setX:(int)theX;
 @end

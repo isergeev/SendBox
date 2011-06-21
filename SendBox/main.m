@@ -20,7 +20,7 @@ int main (int argc, const char * argv[])
     [bar WriteAll];
     
     Foo* foo=[Foo new];
-    
+    [foo setX:3];
     [foo WriteAll];
     
     [pool drain];

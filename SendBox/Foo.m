@@ -17,3 +17,14 @@
 }
 
 @end
+
+
+@implementation Foo (Category) 
+
+-(void)setX:(int)theX
+{
+    //    x_private = theX;  
+    x_protected = theX;
+    x_public = theX;
+}
+@end
